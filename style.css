@@ -1,0 +1,58 @@
+body {
+    background-color: #20262E;
+}
+
+.container  {
+    background-color: #E9E8E8;
+    margin: 10vh auto 10vh auto;
+    padding: 20px;
+    width: fit-content;
+}
+
+.displayer {
+    background-color: #161616;
+    color: #E9E8E8;
+    margin: 10px auto 10px auto;
+    overflow: auto;
+    padding: 16px;
+    width: 80vw;
+}
+
+.input {
+    /* background-color: aqua; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: auto;
+    width: 100%;
+}
+
+.number {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 10px 0 0 0;
+}
+
+.assignment {
+    border-left: 2.5px solid #20262E;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 10px 0 0 0;
+    padding: 0 0 0 10px;
+}
+
+.number button,
+.assignment button {
+    background-color: #666159;
+    border: 2.5px solid #161616;
+    height: fit-content;
+    padding: 5px 10px 5px 10px;
+}
+.number button:hover,
+.assignment button:hover {
+    background-color: #979797;
+    border: 2.5px solid #161616;
+    padding: 5px 10px 5px 10px;
+}
